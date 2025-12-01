@@ -10,15 +10,15 @@ This project aims to:
 - **Assess whether successful adaptation strategies in one country (e.g., Nigeria) can be effectively transferred and applied in another context (e.g., the United States)**
 ---
 ## Methodology
-### **Data Source and Import**
-- **Data Source:** Climate and agricultural datasets obtained from Kaggle.
-- **Data Preparation:** Power Query was used to clean, preprocess, and transform the raw data for analysis.
-- **Data Analysis:** Key metrics and insights were generated using DAX measures within Power BI.
-- **Visualization:** Interactive dashboards were built in Power BI to present findings clearly and effectively.
+### 1. **Data Source and Import**
+The dataset used in this project contains climate and agricultural data of various countries. It was sourced from Kaggle and imported into Power Query from a locally stored Excel file.
+  
+### 2. **Data Preparation**  
+Power Query was used to clean, preprocess, and transform the raw data for analysis.
 
----
-## Data Filtering in Power Query
-The dataset was refined to focus specifically on the two countries central to the study: Nigeria and the United States. Additional filtering was applied to retain only the columns relevant to the project objectives:
+**Data Filtering in Power Query:**
+
+The dataset was refined to focus specifically on the two countries central to the study: **Nigeria** and **the United States**. Additional filtering was applied to retain only the columns relevant to the project objectives:
 - Year
 - Country
 - Crop_Type
@@ -32,6 +32,11 @@ These selections ensured that the analysis remained aligned with the study’s c
 
 <img src="assets/filteredcolumns.png" width="50%" />
 
+### 3. **Data Analysis**  
+DAX measures were created to support the analysis of crop performance, climate trends, and economic impacts across **Nigeria** and **the United States**. These measures calculate key metrics such as average crop yield, total economic losses, extreme weather event counts, and temperature insights. They form the foundation of the visualizations and enable meaningful comparisons between both countries. Refer to  [documentation/dax-measures.md](documentation/dax-measures.md) for a list of all measures. 
+  
+### 4. **Visualization:**
+Interactive dashboards were built in Power BI to present findings clearly and effectively.
 
 ---
 
