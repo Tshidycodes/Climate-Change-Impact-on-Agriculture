@@ -17,9 +17,20 @@ This project aims to:
 - **Visualization:** Interactive dashboards were built in Power BI to present findings clearly and effectively.
 
 ---
-## Data Cleaning and Transformation Steps in Power Query
-Only columns that were relevant to answering the quations for our study were used. 
-<img src="assets/filteredcolumns.png" width="70%" />
+## Data Filtering in Power Query
+The dataset was refined to focus specifically on the two countries central to the study: Nigeria and the United States. Additional filtering was applied to retain only the columns relevant to the project objectives:
+- Year
+- Country
+- Crop_Type
+- Average_Temperature_C
+- Crop_Yield_MT_per_HA
+- Extreme_Weather_Events
+- Adaptation_Strategies
+- Economic_Impact_Million_USD
+
+These selections ensured that the analysis remained aligned with the study’s comparative focus and allowed for clear insight into climate impacts, crop vulnerability, and adaptation strategies across both countries. 
+
+<img src="assets/filteredcolumns.png" width="50%" />
 
 
 ---
