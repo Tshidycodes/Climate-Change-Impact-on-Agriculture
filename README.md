@@ -7,8 +7,7 @@ This project aims to:
 - **Identify the key factor driving economic losses in agriculture**
 - **Determine which crops are most vulnerable to climatic changes.**
 - **Evaluate the effectiveness of various climate adaptation strategies (e.g., water management, drought-resistant crops)**
-- **Compare climate risks and adaptation outcomes between Nigeria and the United States.**
-- **Assess whether successful adaptation strategies in one country (e.g., Nigeria) can be effectively transferred and applied in another context (e.g., the United States)**
+- **Assess whether successful adaptation strategies in one country (e.g., Nigeria) can be effectively applied in another context (e.g., the United States)**
 ---
 ## Methodology
 ### 1. **Data Source and Import**
@@ -44,22 +43,25 @@ DAX measures were created to support the analysis of crop performance, climate t
   
 <img src="assets/Dashboard.png" />
 
-### **What is the key factor driving economic losses?**
+### 1. **What is the key factor driving economic losses?**
 
+<img src="assets/corellation.png" />
 
 - There is a positive correlation between Extreme Weather Events and Econimic losses. As the number of extreme weather events increase, so do the magnitude of economic losses, thereby confirming Extreme Weather Events as one of the key drivers of financial loss in the agricultural sector
 
-### **Which crops are most vulnerable to climatic changes**
+### 2. **Which crops are most vulnerable to climatic changes**
+
+<img src="assets/crops.png" width="80%" />
 
 - For Nigeria Rice, Corn and Cotton are among crops that are likely to result in huge losses
  and for the US that would be Cotton, Vegetables and Barley.
 
-### **Which adaptation strategies work best for each country?**
+### 3. **Which adaptation strategies work best for each country?**
+
+<img src="assets/adaptation.png" width="80%" />
 
 - For Nigeria: the top performing strategy is Water Management. It gives Nigerian farmers the highest yields and the best protection against financial loss. 
-
 - For the USA: the top performing strategy  is Crop Rotation. This practice works well by delivering great yields for the lowest average financial impact.
-
 - It was interesting to note that Water Management  seemed to work well for both countries, making it a transferable strategy that works across different countries that have very different climates and economic systems. 
 
 
