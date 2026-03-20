@@ -1,5 +1,6 @@
 # A Comparative Climate Adaptation Study between Nigeria and the United States
-This project is intended at comparing the impact of climate change on agricultural economies of Nigeria and the United States. 
+Climate change and extreme weather events pose a threat to global food security, leading to unstable crop yields and massive financial losses in agricultural sectors across the world.
+This project compares the impact of climate change on agricultural economies of Nigeria and the United States. These are two countries that have contrasting economies and environmental contexts. 
 
 ## Objective
 This project aims to: 
@@ -14,11 +15,8 @@ This project aims to:
 The dataset used in this project contains climate and agricultural data of various countries. It was sourced from Kaggle and imported into Power Query from a locally stored Excel file.
   
 ### 2. **Data Preparation**  
-Power Query was used to clean, preprocess, and transform the raw data for analysis.
-
-**Data Filtering in Power Query:**
-
-The dataset was refined to focus specifically on the two countries central to the study: **Nigeria** and **the United States**. Additional filtering was applied to retain only the columns relevant to the project objectives:
+Power Query was used to clean and transform the raw data. 
+The dataset was filtered to contain the two countries central to the study: **Nigeria** and **the United States**. Additional filtering was applied to retain only the columns relevant to the project objectives:
 - Year
 - Country
 - Crop_Type
@@ -27,8 +25,6 @@ The dataset was refined to focus specifically on the two countries central to th
 - Extreme_Weather_Events
 - Adaptation_Strategies
 - Economic_Impact_Million_USD
-
-These selections ensured that the analysis remained aligned with the study’s comparative focus and allowed for clear insight into climate impacts, crop vulnerability, and adaptation strategies across both countries. 
 
 <img src="assets/filteredcolumns.png" width="50%" />
 
@@ -53,9 +49,9 @@ DAX measures were created to support the analysis of crop performance, climate t
 
 - There is a positive correlation between Extreme Weather Events and Econimic losses. As the number of extreme weather events increase, so do the magnitude of economic losses, thereby confirming Extreme Weather Events as one of the key drivers of financial loss in the agricultural sector
 
-### **which crops are most vulnerable to climatic changes**
+### **Which crops are most vulnerable to climatic changes**
 
-For Nigeria Rice, Corn and Cotton are among crops that are likely to result in huge losses
+- For Nigeria Rice, Corn and Cotton are among crops that are likely to result in huge losses
  and for the US that would be Cotton, Vegetables and Barley.
 
 ### **Which adaptation strategies work best for each country?**
