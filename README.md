@@ -43,6 +43,8 @@ DAX measures were created to support the analysis of crop performance, climate t
   
 <img src="assets/Dashboard.png" />
 
+ 📌 Here is the link to the [dashboard](pbix/Climate%20Change%20Adaptation.pbix)
+
 ### 1. **What is the key factor driving economic losses?**
 
 <img src="assets/corellation.png" />
@@ -70,6 +72,8 @@ DAX measures were created to support the analysis of crop performance, climate t
 - Extreme weather events are the main driver of financial loss in agricultural settings and as a result any policies or adaptation strategies that can reduce the frequency of these events or mitigate their damage will reduce financial losses. 
 - Adaptation Strategies can be  Context-Specific for example While the USA saw the best results with Crop Rotation, Nigeria achieved the best results from Water Management. So sometimes solutions need to be tailored to specific circumstances of the country.
 
+ Here is the link to the [dashboard](pbix/Climate%20Change%20Adaptation.pbix)
+
 ---
 
 ## Repository Structure
@@ -82,7 +86,7 @@ DAX measures were created to support the analysis of crop performance, climate t
 |    ├── data-sources.md
 |    └─  dax-measures.md 
 ├── 📁 pbix/
-│    └─ report.pbix
+│    └─ Climate Change Adaptation.pbix
 └─  📁 assets/
      └─ (screenshots, diagrams)                     
 ```
